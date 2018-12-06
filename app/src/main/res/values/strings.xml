@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">KSU Parking</string>
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+    <string name="BackButton">Back</string>
+    <string name="please_select_a_parking_pass">Please select a parking pass</string>
+    <string name="please_select_your_ksu_occupation">Please select your occupation</string>
+    <string name="orLabel">or</string>
+    <string name="i_am_a_visitor">I am a visitor</string>
+    <string name="ContinueButton">Continue</string>
+    <string name="parking_lots">Parking Lots</string>
+    <string name="availability_button">Availability ></string>
+    <string name="lot_1">C-Science East</string>
+    <string name="lot_2">C-Science West</string>
+    <string name="Back">Back</string>
+    <string name="parking_lot">Parking lot:</string>
+    <string name="availability">Availability:</string>
+    <string name="maps_button">Google Maps Route</string>
+    <string name="parking_restriction_change">Parking restriction change</string>
+    <string name="parking_lot_occupancy">Parking lot occupancy</string>
+    <string name="ksu_notifications">KSU notifications</string>
+    <string name="done">Done</string>
+    <string name="Geofence">Geofence</string>
+    <string name="Sources">Sources Cited:</string>
+
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Within 1 mile of C-Science</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="KSUOccupation">
+        <item>Student</item>
+        <item>Professor</item>
+        <item>Employee</item>
+    </string-array>
+
+    <string-array name="Pass">
+        <item>C-Science</item>
+    </string-array>
+</resources>
